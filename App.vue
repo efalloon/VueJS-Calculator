@@ -356,58 +356,6 @@ export default {
     },
   },
 }
-
-
-
-      // } else if (targetId == "grid-backspace") {
-      //   if (currentEquationHTML != "00") {
-      //     maxFontSizeOutput = 50
-      //     recordErrorMax = false
-      //     let checkLength = equationNormal.substr(equationNormal.length - 4);
-      //     if (checkLength == "sin(" || checkLength == "cos(" || checkLength == "tan(") {
-      //       equationNormal = equationNormal.slice(0, -9)
-      //       currentEquationHTML = currentEquationHTML.slice(0, -4)
-      //     } else {
-      //       equationNormal = equationNormal.slice(0, -1)
-      //       currentEquationHTML = currentEquationHTML.slice(0, -1)
-      //     }
-      //     let labelVar = document.getElementById('outputCase');
-      //     labelVar.innerHTML = currentEquationHTML;
-      //     // for (var idCount = 0; idCount < currentEquationHTML.length; idCount++) {
-      //     //   let text = currentEquationHTML.charAt(idCount);
-      //     //   let labelWidth = labelVar.offsetWidth;
-      //     //   if (labelWidth >= 350) {
-      //     //     let str = window.getComputedStyle(labelVar, null).getPropertyValue('font-size');
-      //     //     let int = parseInt(str)
-      //     //     if (int <= 30) {
-      //     //       currentEquationHTML = currentEquationHTML.slice(0, -1);
-      //     //       currentEquationHTML += "<br/>"; currentEquationHTML += text
-      //     //       labelVar.innerHTML = currentEquationHTML;
-      //     //       let labelHeight = labelVar.offsetHeight;
-      //     //       if (labelHeight > 204) { 
-      //     //         currentEquationHTML = currentEquationHTML.slice(0, -1);
-      //     //         labelVar.innerHTML = currentEquationHTML;
-      //     //         let errorLabelBounds = document.getElementById("errorLabel")
-      //     //         errorLabelBounds.style.backgroundColor = "#007bff";
-      //     //         errorLabelBounds.innerHTML = "Too Many Characters"
-      //     //         recordErrorMax = true;
-      //     //       }
-      //     //     } else {
-      //     //       maxFontSizeOutput -= 3
-      //     //       var sizeHandle3 = maxFontSizeOutput.toString(); sizeHandle3 += "px";
-      //     //       labelVar.style.fontSize = sizeHandle3;
-      //     //     }
-      //     //   }
-      //     // }
-
-      //     globalAdjustment()
-          
-      //     if (currentEquationHTML == "") {
-      //       currentEquationHTML = "00"
-      //       equationNormal = ""
-      //       labelVar.innerHTML = currentEquationHTML;
-      //     }
-      //   }
 </script>
 
 <style>
